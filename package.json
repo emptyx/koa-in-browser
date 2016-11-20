@@ -43,10 +43,10 @@
     "unsafe-perm": true
   },
   "bugs": {
-    "url": "http://code.dianpingoa.com/gfe/koa-browser/issues"
+    "url": "https://github.com/emptyx/koa-in-browser/issues"
   },
-  "homepage": "http://code.dianpingoa.com/gfe/koa-browser",
+  "homepage": "https://github.com/emptyx/koa-in-browser",
   "version": "1.0.0",
-  "main": "./lib/application.js",
+  "main": "./dist/koa-browser.js",
   "license": "MIT"
 }
