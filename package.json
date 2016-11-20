@@ -17,7 +17,6 @@
     "browser-cookies": "^1.0.8",
     "co": "^4.4.0",
     "delegates": "^1.0.0",
-    "koa-compose": "^2.3.0",
     "net": "^1.0.2",
     "qs": "^6.2.0"
   },
