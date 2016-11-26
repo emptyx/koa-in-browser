@@ -14,6 +14,7 @@
   ],
   "dependencies": {
     "assert": "^1.4.1",
+    "babel-polyfill": "^6.16.0",
     "browser-cookies": "^1.0.8",
     "co": "^4.4.0",
     "delegates": "^1.0.0",

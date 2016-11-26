@@ -1,7 +1,7 @@
 {
-    "name": "koa-in-browser-example",
+    "name": "koa-browser-query-example",
     "version": "0.0.0",
-    "description": "koa-in-browser-example",
+    "description": "koa-browser-middleware-example",
     "scripts": {
         "start": "node server.js"
     },
@@ -21,7 +21,6 @@
     },
     "homepage": "http://redux.js.org",
     "dependencies": {
-        "babel-polyfill": "^6.3.14",
         "co": "^4.4.0"
     },
     "devDependencies": {

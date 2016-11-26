@@ -1,0 +1,39 @@
+{
+    "name": "koa-browser-middleware-example",
+    "version": "0.0.0",
+    "description": "koa-browser-middleware-example",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/emptyx/koa-in-browser"
+    },
+    "keywords": [
+        "koa",
+        "browser",
+        "middleware",
+        "example"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/emptyx/koa-in-browser/issues"
+    },
+    "homepage": "http://redux.js.org",
+    "dependencies": {
+        "co": "^4.4.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.3.15",
+        "babel-loader": "^6.2.0",
+        "babel-preset-es2015": "^6.3.13",
+        "babel-preset-react": "^6.3.13",
+        "babel-preset-react-hmre": "^1.1.1",
+        "expect": "^1.6.0",
+        "express": "^4.13.3",
+        "node-libs-browser": "^0.5.2",
+        "webpack": "^1.9.11",
+        "webpack-dev-middleware": "^1.2.0",
+        "webpack-hot-middleware": "^2.9.1"
+    }
+}

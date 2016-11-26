@@ -1,16 +1,14 @@
 'use strict';
 
 const co = require('co');
-const koa = require('../dist/koa-browser');
+const koa = require('../../dist/koa-browser');
 
 function init() {
     co(function*() {
-        const app = new koa();
+        const app = koa();
         let calls = [];
 
         app.use(function*(next) {
-            console.log(this.cookies.get('cityid'));
-            console.log(this.query.cityid);
             calls.push(1);
             yield next;
             calls.push(6);
@@ -28,7 +26,7 @@ function init() {
             calls.push(4);
         });
         app.on('finish', () => {
-            alert(calls);
+            console.log(`result should be [1,2,3,4,5,6],and now is ${JSON.stringify(calls)}`);
         });
         app.start();
     });
